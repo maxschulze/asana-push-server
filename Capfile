@@ -3,7 +3,7 @@ unless respond_to?(:namespace) # cap2 differentiator
   exit 1
 end
 
-require 'config/boot'
+require File.dirname(__FILE__) + '/config/boot'
 load DaemonKit.framework_root + '/lib/daemon_kit/deployment/capistrano.rb'
 
 Dir['config/deploy/recipes/*.rb'].each { |plugin| load(plugin) }

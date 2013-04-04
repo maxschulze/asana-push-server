@@ -1,20 +1,20 @@
 # Modified capistrano recipe, based on the standard 'deploy' recipe
 # provided by capistrano but without the Rails-specific dependencies
 
-set :stages, %w(staging production)
-set :default_stage, "staging"
+set :stages, %w(production)
+set :default_stage, "production"
 require "capistrano/ext/multistage"
 
 # Set some globals
 default_run_options[:pty] = true
-set :application, "server"
+set :application, "asana-push-server"
 
 # Deployment
-set :deploy_to, "/svc/#{application}"
+set :deploy_to, "/u/apps/#{application}"
 #set :user, 'someone'
 
 # Get repo configuration
-set :repository, "git@github.com:yourname/#{application}.git"
+set :repository, "git://github.com/maxschulze/#{application}.git"
 set :scm, "git"
 set :branch, "master"
 set :deploy_via, :remote_cache
