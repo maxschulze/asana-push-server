@@ -1,0 +1,20 @@
+# Logfile created on 2013-04-04 22:55:46 +0200 by logger.rb/31641
+2013-04-04 22:55:46.840926 server(92664) [INFO] [daemon-kit]: DaemonKit (0.2.1) booting in development mode
+2013-04-04 22:55:46.841053 server(92664) [INFO] [daemon-kit]: Setting up trap for USR1
+2013-04-04 22:55:46.841161 server(92664) [INFO] [daemon-kit]: Setting up trap for USR2
+2013-04-04 22:55:46.841261 server(92664) [INFO] [daemon-kit]: Setting up trap for HUP
+2013-04-04 22:55:46.841361 server(92664) [INFO] [daemon-kit]: Setting up trap for INT
+2013-04-04 22:55:46.841454 server(92664) [INFO] [daemon-kit]: Setting up trap for TERM
+2013-04-04 22:55:46.864299 server(92664) [INFO] [daemon-kit]: DaemonKit (0.2.1) booted, now running server
+2013-04-04 22:55:48.736999 server(92664) [INFO] [daemon-kit]: Running shutdown hooks
+2013-04-04 22:55:48.737135 server(92664) [WARN] [daemon-kit]: Shutting down server
+2013-04-04 22:55:56.637449 server(92682) [INFO] [daemon-kit]: DaemonKit (0.2.1) booting in development mode
+2013-04-04 22:55:56.637834 server(92682) [INFO] [daemon-kit]: Setting up trap for USR1
+2013-04-04 22:55:56.638478 server(92682) [INFO] [daemon-kit]: Setting up trap for USR2
+2013-04-04 22:55:56.638922 server(92682) [INFO] [daemon-kit]: Setting up trap for HUP
+2013-04-04 22:55:56.639421 server(92682) [INFO] [daemon-kit]: Setting up trap for INT
+2013-04-04 22:55:56.639865 server(92682) [INFO] [daemon-kit]: Setting up trap for TERM
+2013-04-04 22:55:56.643188 server(92682) [INFO] [daemon-kit]: DaemonKit (0.2.1) booted, now running server
+2013-04-04 22:55:59.295509 server(92682) [INFO] [daemon-kit]: Running signal traps for INT
+2013-04-04 22:55:59.295881 server(92682) [INFO] [daemon-kit]: Running shutdown hooks
+2013-04-04 22:55:59.296013 server(92682) [WARN] [daemon-kit]: Shutting down server
